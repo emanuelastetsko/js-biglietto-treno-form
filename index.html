@@ -10,11 +10,19 @@
     </head>
     <body>
         <main>
-            <h2>Prezzo del biglietto:</h2>
-            <div class="price-box">
-                <span id="ticket-price"></span>
-                <span>€</span>
-            </div>
+            <form>
+                <label for="fname">Nome e cognome</label>
+                <input type="text" id="name">
+                <label for="km">Km da percorrere</label>
+                <input type="text" id="km">
+                <label for="age">Fascia d'età</label>
+                <select id="age">
+                  <option value="volvo">Maggiorenne</option>
+                  <option value="saab">Minorenne</option>
+                  <option value="fiat">Over 65</option>
+                </select>
+                <input type="submit" value="Submit">
+            </form>
         </main>
         
         <script type="text/javascript" src="js/scripts.js"></script>

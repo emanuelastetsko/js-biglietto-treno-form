@@ -1,4 +1,4 @@
-// Benvenuto
+/* Benvenuto
 alert("Benvenuto sul sito di Trenitalia!");
 
 // Info 
@@ -23,3 +23,7 @@ if (age < 18) {
     let price = km * 0.21;
     document.getElementById("ticket-price").innerHTML = price;
 }
+*/
+
+
+
