@@ -10,19 +10,14 @@
     </head>
     <body>
         <main>
-            <form>
-                <label for="fname">Nome e cognome</label>
-                <input type="text" id="name">
+            <div>
                 <label for="km">Km da percorrere</label>
-                <input type="text" id="km">
+                <input type="number" id="km-input">
                 <label for="age">Fascia d'età</label>
-                <select id="age">
-                  <option value="volvo">Maggiorenne</option>
-                  <option value="saab">Minorenne</option>
-                  <option value="fiat">Over 65</option>
-                </select>
-                <input type="submit" value="Submit">
-            </form>
+                <input type="number" id="age-input">
+                <button id="submit-button">Submit</button>
+            </div>
+            <span id="ticket-price"></span>  
         </main>
         
         <script type="text/javascript" src="js/scripts.js"></script>
