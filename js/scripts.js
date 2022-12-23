@@ -32,7 +32,9 @@ submitButton.addEventListener("click",
         }
 
         document.getElementById("name-output").innerHTML = nameInput.value;
-
+        document.getElementById("coach-number").innerHTML = Math.floor(Math.random() * 10) + 1;
+        document.getElementById("code-number").innerHTML = Math.floor(Math.random() * (99999 - 90000) ) + 90000;
+          
     }
                          
 );
