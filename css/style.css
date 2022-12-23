@@ -6,6 +6,8 @@
 }
 
 /* MAIN */
+
+/* CALCOLA PREZZO */
 main{
     background-color: #b91450;
     height: 100vh;
@@ -28,6 +30,25 @@ h2{
     margin-bottom: 50px;
 }
 
+.input-box h6{
+    color: #b91450;
+}
+
+.input-box input{
+    border: 1px solid #b91450;
+    border-radius: 5px;
+    padding: 0 7px;
+}
+
+.input-box button{
+    background-color: lightgray;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 0 5px;
+    color: #b91450;
+    font-weight: bold;
+}
+
 .last-col{
     padding-top: 30px;
 }
@@ -41,10 +62,28 @@ h2{
 }
 
 
+/* BIGLIETTO */
 .output-box{
     background-color: white;
     width: 60vw;
     margin: 0 auto;
     border-radius: 5px;
     padding: 15px 0;
+}
+
+.output-box h5{
+    font-weight: bold;
+}
+
+.output-box h6{
+    font-weight: bold;
+}
+
+.border-container{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.grey-box{
+    background-color: grey;
 }
