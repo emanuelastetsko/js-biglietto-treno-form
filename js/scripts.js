@@ -1,4 +1,5 @@
 // Input 
+const nameInput = document.getElementById("name-input");
 const kmInput = document.getElementById("km-input");
 const ageInput = document.getElementById("age-input");
 const submitButton = document.getElementById("submit-button");
@@ -8,6 +9,7 @@ submitButton.addEventListener("click",
                          
     function() {
 
+        console.log("nameInput.value", nameInput.value);
         console.log("kmInput.value", kmInput.value);
         console.log("ageInput.value", ageInput.value);
 
@@ -24,6 +26,9 @@ submitButton.addEventListener("click",
             let price = km * 0.21;
             document.getElementById("ticket-price").innerHTML = price.toFixed(2) + "€";
         }
+
+        document.getElementById("name-output").innerHTML = nameInput.value;
+
     }
                          
 );
