@@ -45,7 +45,11 @@ deleteButton.addEventListener("click",
         nameInput.value = "";
         kmInput.value = "";
         ageInput.value = "";
-
+        document.getElementById("name-output").innerHTML = "";
+        document.getElementById("offer-type").innerHTML = "";
+        document.getElementById("coach-number").innerHTML = "";
+        document.getElementById("code-number").innerHTML = "";
+        document.getElementById("ticket-price").innerHTML = "";
     }
                          
 );
